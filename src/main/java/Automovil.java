@@ -11,7 +11,7 @@ class Automovil extends Vehicle {
             return;
         }
         this.quantityOfFuel = this.quantityOfFuel + fuel;
-        System.out.println("La cantidad de combustible del Automovil es: " + this.quantityOfFuel);
+        System.out.printf("La cantidad de combustible del Automovil es: %.2f", this.quantityOfFuel);
 
     }
 
@@ -22,7 +22,7 @@ class Automovil extends Vehicle {
         }
 
         this.quantityOfFuel = this.quantityOfFuel - this.useByKm * kilometers;
-        System.out.println(("Automovil viajó " + kilometers + " km y aún tiene" + this.quantityOfFuel + " de combustible"));
+        System.out.printf("Automovil viajó %.2f  km y aún tiene %.2f   de combustible", kilometers, this.quantityOfFuel);
     }
 
 }
