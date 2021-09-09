@@ -1,7 +1,7 @@
-package Car;
+package car;
 
 
-import Vehicle.Vehicle;
+import vehicle.Vehicle;
 
 
 public class Car extends Vehicle {

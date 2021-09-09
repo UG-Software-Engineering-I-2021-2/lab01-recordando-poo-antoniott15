@@ -1,5 +1,5 @@
-import Truck.Truck;
-import Vehicle.Vehicle;
+import truck.Truck;
+import vehicle.Vehicle;
 import java.util.logging.Logger;
 
 class Main {

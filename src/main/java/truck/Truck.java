@@ -1,6 +1,6 @@
-package Truck;
+package truck;
 
-import Vehicle.Vehicle;
+import vehicle.Vehicle;
 
 
 public class Truck extends Vehicle {

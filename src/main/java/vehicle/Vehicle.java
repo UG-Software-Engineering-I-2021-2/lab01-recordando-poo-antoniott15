@@ -1,4 +1,4 @@
-package Vehicle;
+package vehicle;
 
 public class Vehicle {
     double quantityOfFuel = 0.0;
