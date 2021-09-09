@@ -1,3 +1,5 @@
+package Vehicle;
+
 public class Vehicle {
     double quantityOfFuel = 0.0;
     double capacityOfFuel = 0;
@@ -32,10 +34,14 @@ public class Vehicle {
         this.useByKm = useByKm;
     }
 
-    public void supplying(double fuel) {}
+    public String supplying(double fuel) {
+        return "";
+    }
 
 
-    public void Trip(float kilometers) {}
+    public String Trip(float kilometers) {
+        return "";
+    }
 
 
 }
