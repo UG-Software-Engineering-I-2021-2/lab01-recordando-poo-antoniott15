@@ -16,21 +16,21 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 wait()java.lang.Object#wait()V*
 
 hashCode()java.lang.Object#hashCode()Iú
-vehicle.Vehiclejava.lang.Object;
+vehicle.Vehiclejava.lang.Object4
+trip(F))vehicle.Vehicle#trip(F)Ljava/lang/String;;
 getCapacityOfFuel()$vehicle.Vehicle#getCapacityOfFuel()D)
 
 <init>(DD)vehicle.Vehicle#<init>(DD)V=
 setQuantityOfFuel(D)%vehicle.Vehicle#setQuantityOfFuel(D)V-
-getUseByKm()vehicle.Vehicle#getUseByKm()D4
-Trip(F))vehicle.Vehicle#Trip(F)Ljava/lang/String;>
+getUseByKm()vehicle.Vehicle#getUseByKm()D>
 supplying(D).vehicle.Vehicle#supplying(D)Ljava/lang/String;/
 setUseByKm(D)vehicle.Vehicle#setUseByKm(D)V=
 setCapacityOfFuel(D)%vehicle.Vehicle#setCapacityOfFuel(D)V;
 getQuantityOfFuel()$vehicle.Vehicle#getQuantityOfFuel()D≥
-truck.Truckvehicle.Vehicle%
+truck.Truckvehicle.Vehicle0
+trip(F)%truck.Truck#trip(F)Ljava/lang/String;%
 
-<init>(DD)truck.Truck#<init>(DD)V0
-Trip(F)%truck.Truck#Trip(F)Ljava/lang/String;:
+<init>(DD)truck.Truck#<init>(DD)V:
 supplying(D)*truck.Truck#supplying(D)Ljava/lang/String;(
 java.io.Serializablejava.lang.Object(
 java.lang.Comparablejava.lang.ObjectÉ
@@ -172,14 +172,14 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;2
 !<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)V%
 value()java.lang.String#value()[B`
 %regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z£
-car.Carvehicle.Vehicle!
+car.Carvehicle.Vehicle,
+trip(F)!car.Car#trip(F)Ljava/lang/String;!
 
-<init>(DD)car.Car#<init>(DD)V,
-Trip(F)!car.Car#Trip(F)Ljava/lang/String;6
-supplying(D)&car.Car#supplying(D)Ljava/lang/String;r
-Mainjava.lang.Object
-<init>()Main#<init>()V<
-main([Ljava/lang/String;)Main#main([Ljava/lang/String;)Vã
+<init>(DD)car.Car#<init>(DD)V6
+supplying(D)&car.Car#supplying(D)Ljava/lang/String;Å
+	main.Mainjava.lang.Object
+<init>()main.Main#<init>()VA
+main([Ljava/lang/String;)$main.Main#main([Ljava/lang/String;)Vã
 "java.lang.reflect.AnnotatedElementjava.lang.Objectß
 /getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;t
 &isAnnotationPresent(Ljava/lang/Class;)Jjava.lang.reflect.AnnotatedElement#isAnnotationPresent(Ljava/lang/Class;)Zò
