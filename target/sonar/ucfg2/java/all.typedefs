@@ -16,22 +16,22 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 wait()java.lang.Object#wait()V*
 
 hashCode()java.lang.Object#hashCode()Iœ
-Vehicle.Vehiclejava.lang.Object;
-getCapacityOfFuel()$Vehicle.Vehicle#getCapacityOfFuel()D)
+vehicle.Vehiclejava.lang.Object;
+getCapacityOfFuel()$vehicle.Vehicle#getCapacityOfFuel()D)
 
-<init>(DD)Vehicle.Vehicle#<init>(DD)V=
-setQuantityOfFuel(D)%Vehicle.Vehicle#setQuantityOfFuel(D)V-
-getUseByKm()Vehicle.Vehicle#getUseByKm()D4
-Trip(F))Vehicle.Vehicle#Trip(F)Ljava/lang/String;>
-supplying(D).Vehicle.Vehicle#supplying(D)Ljava/lang/String;/
-setUseByKm(D)Vehicle.Vehicle#setUseByKm(D)V=
-setCapacityOfFuel(D)%Vehicle.Vehicle#setCapacityOfFuel(D)V;
-getQuantityOfFuel()$Vehicle.Vehicle#getQuantityOfFuel()D£
-Car.CarVehicle.Vehicle!
+<init>(DD)vehicle.Vehicle#<init>(DD)V=
+setQuantityOfFuel(D)%vehicle.Vehicle#setQuantityOfFuel(D)V-
+getUseByKm()vehicle.Vehicle#getUseByKm()D4
+Trip(F))vehicle.Vehicle#Trip(F)Ljava/lang/String;>
+supplying(D).vehicle.Vehicle#supplying(D)Ljava/lang/String;/
+setUseByKm(D)vehicle.Vehicle#setUseByKm(D)V=
+setCapacityOfFuel(D)%vehicle.Vehicle#setCapacityOfFuel(D)V;
+getQuantityOfFuel()$vehicle.Vehicle#getQuantityOfFuel()D³
+truck.Truckvehicle.Vehicle%
 
-<init>(DD)Car.Car#<init>(DD)V,
-Trip(F)!Car.Car#Trip(F)Ljava/lang/String;6
-supplying(D)&Car.Car#supplying(D)Ljava/lang/String;(
+<init>(DD)truck.Truck#<init>(DD)V0
+Trip(F)%truck.Truck#Trip(F)Ljava/lang/String;:
+supplying(D)*truck.Truck#supplying(D)Ljava/lang/String;(
 java.io.Serializablejava.lang.Object(
 java.lang.Comparablejava.lang.Objectƒ
 java.lang.CharSequencejava.lang.Object.
@@ -171,12 +171,12 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;2
 checkIndex(II) java.lang.String#checkIndex(II)VX
 !<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)V%
 value()java.lang.String#value()[B`
-%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z³
-Truck.TruckVehicle.Vehicle%
+%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z£
+car.Carvehicle.Vehicle!
 
-<init>(DD)Truck.Truck#<init>(DD)V0
-Trip(F)%Truck.Truck#Trip(F)Ljava/lang/String;:
-supplying(D)*Truck.Truck#supplying(D)Ljava/lang/String;r
+<init>(DD)car.Car#<init>(DD)V,
+Trip(F)!car.Car#Trip(F)Ljava/lang/String;6
+supplying(D)&car.Car#supplying(D)Ljava/lang/String;r
 Mainjava.lang.Object
 <init>()Main#<init>()V<
 main([Ljava/lang/String;)Main#main([Ljava/lang/String;)V‹
