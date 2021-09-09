@@ -21,7 +21,7 @@ public class Truck extends Vehicle {
     }
 
     @Override
-    public String Trip(float kilometers) {
+    public String trip(float kilometers) {
         if(this.getUseByKm() * kilometers > this.getQuantityOfFuel()){
             return "Camión necesita reabastecimiento de combustible";
         }

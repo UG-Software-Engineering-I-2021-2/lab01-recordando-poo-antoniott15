@@ -1,3 +1,5 @@
+package main;
+
 import truck.Truck;
 import vehicle.Vehicle;
 import java.util.logging.Logger;
@@ -10,7 +12,7 @@ class Main {
 
         Vehicle truck;
         truck = new Truck(10, 100);
-        String result = truck.Trip(4);
+        String result = truck.trip(4);
         logger.info(result);
     }
 }

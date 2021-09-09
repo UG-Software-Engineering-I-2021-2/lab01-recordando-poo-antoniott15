@@ -35,12 +35,12 @@ public class Vehicle {
     }
 
     public String supplying(double fuel) {
-        return "";
+        return String.format("%.2f", fuel);
     }
 
 
-    public String Trip(float kilometers) {
-        return "";
+    public String trip(float kilometers) {
+        return String.format("%.2f", kilometers);
     }
 
 
