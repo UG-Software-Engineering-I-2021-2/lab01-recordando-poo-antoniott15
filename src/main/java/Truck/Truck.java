@@ -10,7 +10,7 @@ public class Truck extends Vehicle {
         this.setUseByKm(1.6);
     }
 
-
+    @Override
     public String supplying(double fuel) {
         if(this.getQuantityOfFuel() +  fuel > this.getCapacityOfFuel()) {
             return "Camíon  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad";
@@ -20,6 +20,7 @@ public class Truck extends Vehicle {
         return String.format("La cantidad de combustible del Camion es: %.2f" , this.getQuantityOfFuel());
     }
 
+    @Override
     public String Trip(float kilometers) {
         if(this.getUseByKm() * kilometers > this.getQuantityOfFuel()){
             return "Camión necesita reabastecimiento de combustible";

@@ -1,0 +1,55 @@
+
+%Truck.Truck#Trip(F)Ljava/lang/String;N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java ("3*Ü
+2N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (D"†
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (E42
+0CamiÃ³n necesita reabastecimiento de combustible*­
+3N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (Ÿœ
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (
+%0double"Vehicle.Vehicle#getUseByKm()D*
+Truck.Truck2getUseByKm()­ª
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java, (D
+%1double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Truck.Truck2getQuantityOfFuel()*
+2
+1*§	
+1N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (­ª
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (7
+%2double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Truck.Truck2getQuantityOfFuel()Ÿœ
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java: (K
+%3double"Vehicle.Vehicle#getUseByKm()D*
+Truck.Truck2getUseByKm()µ²
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (Y
+
+%4void"%Vehicle.Vehicle#setQuantityOfFuel(D)V*
+Truck.Truck*
+""2setQuantityOfFuel(D)­ª
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.javaf (~
+%5double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Truck.Truck2getQuantityOfFuel()ª
+§
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (
+%6java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*=;
+9Camion viajÃ³ %.2f  km y aÃºn tiene %.2f   de combustible*
+""*
+
+%5double"k
+O
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (€
+
+%6java.lang.String:
+""B
+Truck.Truck

@@ -1,0 +1,50 @@
+
+2Automovil.Automovil#supplying(D)Ljava/lang/String;V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java ("3*ê
+2V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (i"≤
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (jXV
+TAutomovil.Automovil  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad*„
+3V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (Ω∫
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (#
+%0double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Automovil.Automovil2getQuantityOfFuel()Ω∫
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java. (F
+%1double"$Vehicle.Vehicle#getCapacityOfFuel()D*
+Automovil.Automovil2getCapacityOfFuel()*
+2
+1*∆
+1V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (Ω∫
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (7
+%2double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Automovil.Automovil2getQuantityOfFuel()≈¬
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (?
+
+%3void"%Vehicle.Vehicle#setQuantityOfFuel(D)V*
+Automovil.Automovil*
+""2setQuantityOfFuel(D)Ω∫
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java] (u
+%4double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Automovil.Automovil2getQuantityOfFuel()¨
+©
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (v
+%5java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*?=
+;La cantidad de combustible del Automovil.Automovil es: %.2f*
+
+%4double"r
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (w
+
+%5java.lang.String:
+""B
+Automovil.Automovil

@@ -1,16 +1,17 @@
-package Automovil;
+package Car;
 
 
 import Vehicle.Vehicle;
 
 
-public class Automovil extends Vehicle {
+public class Car extends Vehicle {
 
-    public Automovil(double quantityOfFuel, double capacityOfFuel) {
+    public Car(double quantityOfFuel, double capacityOfFuel) {
         super(quantityOfFuel, capacityOfFuel);
         this.setUseByKm(0.9);
     }
 
+    @Override
     public String supplying(double fuel) {
         if(this.getQuantityOfFuel() +  fuel > this.getCapacityOfFuel()) {
             return "Automovil.Automovil  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad";
@@ -20,6 +21,7 @@ public class Automovil extends Vehicle {
         return String.format("La cantidad de combustible del Automovil.Automovil es: %.2f" , this.getQuantityOfFuel());
     }
 
+    @Override
     public String Trip(float kilometers) {
         if(this.getUseByKm() * kilometers > this.getQuantityOfFuel()){
             return "Automovil.Automovil necesita reabastecimiento de combustible";

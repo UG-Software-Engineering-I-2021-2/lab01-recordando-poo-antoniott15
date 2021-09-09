@@ -1,0 +1,56 @@
+
+-Automovil.Automovil#Trip(F)Ljava/lang/String;V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java ("3*ø
+2V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (Q"š
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (R@>
+<Automovil.Automovil necesita reabastecimiento de combustible*Õ
+3V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (¯¬
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (
+%0double"Vehicle.Vehicle#getUseByKm()D*
+Automovil.Automovil2getUseByKm()½º
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java, (D
+%1double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Automovil.Automovil2getQuantityOfFuel()*
+2
+1*Ž
+
+1V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (½º
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (7
+%2double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Automovil.Automovil2getQuantityOfFuel()¯¬
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java: (K
+%3double"Vehicle.Vehicle#getUseByKm()D*
+Automovil.Automovil2getUseByKm()ÅÂ
+V
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (Y
+
+%4void"%Vehicle.Vehicle#setQuantityOfFuel(D)V*
+Automovil.Automovil*
+""2setQuantityOfFuel(D)¾»
+W
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.javas (‹
+%5double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Automovil.Automovil2getQuantityOfFuel()À
+½
+W
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (Œ
+%6java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*JH
+FAutomovil.Automovil viajÃ³ %.2f  km y aÃºn tiene %.2f   de combustible*
+""*
+
+%5double"s
+W
+L/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Automovil/Automovil.java (
+
+%6java.lang.String:
+""B
+Automovil.Automovil

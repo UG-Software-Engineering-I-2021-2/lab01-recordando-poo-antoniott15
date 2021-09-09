@@ -1,0 +1,50 @@
+
+*Truck.Truck#supplying(D)Ljava/lang/String;N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java ("3*ı
+2N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (]"ü
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (^MK
+ICamiÃÅon  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad*ª
+3N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (≠™
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (#
+%0double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Truck.Truck2getQuantityOfFuel()≠™
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java. (F
+%1double"$Vehicle.Vehicle#getCapacityOfFuel()D*
+Truck.Truck2getCapacityOfFuel()*
+2
+1*Ò
+1N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (≠™
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (7
+%2double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Truck.Truck2getQuantityOfFuel()µ≤
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (H
+
+%3void"%Vehicle.Vehicle#setQuantityOfFuel(D)V*
+Truck.Truck*
+""2setQuantityOfFuel(D)≠™
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.javaP (h
+%4double"$Vehicle.Vehicle#getQuantityOfFuel()D*
+Truck.Truck2getQuantityOfFuel()ó
+î
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (i
+%5java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*20
+.La cantidad de combustible del Camion es: %.2f*
+
+%4double"j
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/Truck/Truck.java (j
+
+%5java.lang.String:
+""B
+Truck.Truck
