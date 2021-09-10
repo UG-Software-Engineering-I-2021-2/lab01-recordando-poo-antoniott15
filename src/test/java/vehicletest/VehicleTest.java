@@ -25,7 +25,7 @@ public class VehicleTest {
     public void TestTruckWhileTripFail() {
         Vehicle truck;
         truck = new Truck(100,10);
-        Assert.assertEquals(truck.trip(100),"Camión necesita reabastecimiento de combustible");
+        Assert.assertEquals(truck.trip(100),"Camion necesita reabastecimiento de combustible");
     }
 
     @Test
