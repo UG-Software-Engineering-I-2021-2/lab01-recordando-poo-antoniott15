@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-vehicletest_VehicleTest" class="show-methods passed suite-vehicletest_VehicleTest"> (show)</a> <!-- show-methods passed suite-vehicletest_VehicleTest -->
                     </span>
                     <div class="method-list-content passed suite-vehicletest_VehicleTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vehicletest_VehicleTest" title="vehicletest.VehicleTest" class="method navigator-link" hash-for-method="TestTruckWhileRefuelSuccess">TestTruckWhileRefuelSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-vehicletest_VehicleTest" title="vehicletest.VehicleTest" class="method navigator-link" hash-for-method="TestTruckWhileTripSuccess">TestTruckWhileTripSuccess</a> <!-- method navigator-link -->
@@ -125,6 +130,13 @@
               <span class="class-name">vehicletest.VehicleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestTruckWhileRefuelSuccess">
+                  </a> <!-- TestTruckWhileRefuelSuccess -->
+                  <span class="method-name">TestTruckWhileRefuelSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="TestTruckWhileTripSuccess">
@@ -185,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestTruckWhileTripSuccess')
+data.setCell(0, 1, 'TestTruckWhileRefuelSuccess')
 data.setCell(0, 2, 'vehicletest.VehicleTest')
-data.setCell(0, 3, 19);
+data.setCell(0, 3, 21);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestTruckWhileTripSuccess')
+data.setCell(1, 2, 'vehicletest.VehicleTest')
+data.setCell(1, 3, 0);
 window.suiteTableData['vehicletest_VehicleTest']= { tableData: data, tableDiv: 'times-div-vehicletest_VehicleTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 21 ms</span>
               <div id="times-div-vehicletest_VehicleTest">
               </div> <!-- times-div-vehicletest_VehicleTest -->
             </div> <!-- times-div -->
@@ -222,8 +238,12 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">vehicletest.VehicleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TestTruckWhileTripSuccess</span>
+                <span class="method-name">TestTruckWhileRefuelSuccess</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestTruckWhileTripSuccess</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

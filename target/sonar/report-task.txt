@@ -1,7 +1,7 @@
 organization=ug-software-engineering-i-2021-2
-projectKey=org.example:lab1
+projectKey=org.example:lab1-antoniotoche
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.23159
-dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Alab1
-ceTaskId=AXvNXT7hIHuiaklFsZod
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvNXT7hIHuiaklFsZod
+dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Alab1-antoniotoche
+ceTaskId=AXvNYzxYc5pxCGGJyrZk
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvNYzxYc5pxCGGJyrZk
