@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="vehicletest.VehicleTest" time="0.108" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="vehicletest.VehicleTest" time="0.022" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+0"/>
@@ -59,17 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileTripSuccess" time="0.108">
-    <failure message="expected [Camion viajó 10.00  km y aún tiene 84.00   de combustible] but found [Camion viaj�� 10.00  km y a��n tiene 84.00   de combustible]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Camion viajó 10.00  km y aún tiene 84.00   de combustible] but found [Camion viaj�� 10.00  km y a��n tiene 84.00   de combustible]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at vehicletest.VehicleTest.TestTruckWhileTripSuccess(VehicleTest.java:13)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@345965f2
-</system-out>
-  </testcase>
+  <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileTripSuccess" time="0.022"/>
 </testsuite>
