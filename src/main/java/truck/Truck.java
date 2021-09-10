@@ -27,6 +27,6 @@ public class Truck extends Vehicle {
         }
 
         this.setQuantityOfFuel(this.getQuantityOfFuel() - this.getUseByKm() * kilometers);
-        return String.format("Camion viajó %.2f  km y aún tiene %.2f   de combustible" , kilometers , this.getQuantityOfFuel());
+        return String.format("Camion viajo %.2f km y aun tiene %.2f de combustible" , kilometers , this.getQuantityOfFuel());
     }
 }
