@@ -1,0 +1,55 @@
+
+%truck.Truck#trip(F)Ljava/lang/String;N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java ("3*Ü
+2N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (D"†
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (E42
+0CamiÃ³n necesita reabastecimiento de combustible*­
+3N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (Ÿœ
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (
+%0double"vehicle.Vehicle#getUseByKm()D*
+truck.Truck2getUseByKm()­ª
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java, (D
+%1double"$vehicle.Vehicle#getQuantityOfFuel()D*
+truck.Truck2getQuantityOfFuel()*
+2
+1*¡	
+1N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (­ª
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (7
+%2double"$vehicle.Vehicle#getQuantityOfFuel()D*
+truck.Truck2getQuantityOfFuel()Ÿœ
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java: (K
+%3double"vehicle.Vehicle#getUseByKm()D*
+truck.Truck2getUseByKm()µ²
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (Y
+
+%4void"%vehicle.Vehicle#setQuantityOfFuel(D)V*
+truck.Truck*
+""2setQuantityOfFuel(D)­ª
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.javac ({
+%5double"$vehicle.Vehicle#getQuantityOfFuel()D*
+truck.Truck2getQuantityOfFuel()¥
+¢
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (|
+%6java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*86
+4Camion viajo %.2f km y aun tiene %.2f de combustible*
+""*
+
+%5double"j
+N
+D/Users/antoniotoche/IdeaProjects/lab1/src/main/java/truck/Truck.java (}
+
+%6java.lang.String:
+""B
+truck.Truck

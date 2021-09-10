@@ -10,6 +10,13 @@ public class VehicleTest {
     public void TestTruckWhileTripSuccess() {
         Vehicle truck;
         truck = new Truck(100,10);
-        Assert.assertEquals("Camion viajo 10.00 km y aun tiene 84.00 de combustible", truck.trip(10));
+        Assert.assertEquals(truck.trip(10),"Camion viajo 10.00 km y aun tiene 84.00 de combustible");
+    }
+
+    @Test
+    public void TestTruckWhileRefuelSuccess() {
+        Vehicle truck;
+        truck = new Truck(20,100);
+        Assert.assertEquals(truck.supplying(10),"La cantidad de combustible del Camion es: 29.50");
     }
 }
