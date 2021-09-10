@@ -22,8 +22,9 @@ public class Vehicle {
         return capacityOfFuel;
     }
 
-    public void setCapacityOfFuel(double capacityOfFuel) {
+    public double setCapacityOfFuel(double capacityOfFuel) {
         this.capacityOfFuel = capacityOfFuel;
+        return this.capacityOfFuel;
     }
 
     public double getUseByKm() {

@@ -63,4 +63,25 @@ public class VehicleTest {
         car = new Car(20,100);
         Assert.assertEquals(car.supplying(200),"Automovil no se puede reabastecer el tanque, sobrepasa la capacidad");
     }
+
+    @Test
+    public void TestVehicleSupplying() {
+        Vehicle vehicle;
+        vehicle = new Vehicle(20,100);
+        Assert.assertEquals(vehicle.supplying(200),"200.00");
+    }
+
+    @Test
+    public void TestVehicleTrip() {
+        Vehicle vehicle;
+        vehicle = new Vehicle(20,100);
+        Assert.assertEquals(vehicle.trip(200),"200.00");
+    }
+
+    @Test
+    public void TestVehicleSetCapacity() {
+        Vehicle vehicle;
+        vehicle = new Vehicle(20,100);
+        Assert.assertEquals(vehicle.setCapacityOfFuel(200),200);
+    }
 }

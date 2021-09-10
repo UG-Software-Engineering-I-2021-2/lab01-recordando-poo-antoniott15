@@ -1,11 +1,11 @@
 
 &car.Car#supplying(D)Ljava/lang/String;J
-@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java ("3*¯
+@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java ("3*Á
 2J
-@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (i"¶
+@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (X"ï
 J
-@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (jXV
-TAutomovil.Automovil  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad*ß
+@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (YGE
+CAutomovil no se puede reabastecer el tanque, sobrepasa la capacidad*ß
 3J
 @/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (•¢
 J
@@ -17,7 +17,7 @@ J
 %1double"$vehicle.Vehicle#getCapacityOfFuel()D*	
 car.Car2getCapacityOfFuel()*
 2
-1*⁄
+1*–
 1J
 @/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (•¢
 J
@@ -31,19 +31,19 @@ J
 car.Car*
 ""2setQuantityOfFuel(D)•¢
 J
-@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java] (u
+@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.javaS (k
 %4double"$vehicle.Vehicle#getQuantityOfFuel()D*	
-car.Car2getQuantityOfFuel()†
-ù
+car.Car2getQuantityOfFuel()ñ
+ì
 J
-@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (v
+@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (l
 %5java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*?=
-;La cantidad de combustible del Automovil.Automovil es: %.2f*
+java.lang.String*53
+1La cantidad de combustible del Automovil es: %.2f*
 
 %4double"f
 J
-@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (w
+@/Users/antoniotoche/IdeaProjects/lab1/src/main/java/car/Car.java (m
 
 %5java.lang.String:
 ""B	

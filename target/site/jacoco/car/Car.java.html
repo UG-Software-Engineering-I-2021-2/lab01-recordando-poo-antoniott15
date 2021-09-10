@@ -7,28 +7,28 @@ import vehicle.Vehicle;
 public class Car extends Vehicle {
 
     public Car(double quantityOfFuel, double capacityOfFuel) {
-<span class="nc" id="L10">        super(quantityOfFuel, capacityOfFuel);</span>
-<span class="nc" id="L11">        this.setUseByKm(0.9);</span>
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L10">        super(quantityOfFuel, capacityOfFuel);</span>
+<span class="fc" id="L11">        this.setUseByKm(0.9);</span>
+<span class="fc" id="L12">    }</span>
 
     @Override
     public String supplying(double fuel) {
-<span class="nc bnc" id="L16" title="All 2 branches missed.">        if(this.getQuantityOfFuel() +  fuel &gt; this.getCapacityOfFuel()) {</span>
-<span class="nc" id="L17">            return &quot;Automovil.Automovil  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad&quot;;</span>
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        if(this.getQuantityOfFuel() +  fuel &gt; this.getCapacityOfFuel()) {</span>
+<span class="fc" id="L17">            return &quot;Automovil no se puede reabastecer el tanque, sobrepasa la capacidad&quot;;</span>
         }
-<span class="nc" id="L19">        this.setQuantityOfFuel(this.getQuantityOfFuel() + fuel);</span>
+<span class="fc" id="L19">        this.setQuantityOfFuel(this.getQuantityOfFuel() + fuel);</span>
 
-<span class="nc" id="L21">        return String.format(&quot;La cantidad de combustible del Automovil.Automovil es: %.2f&quot; , this.getQuantityOfFuel());</span>
+<span class="fc" id="L21">        return String.format(&quot;La cantidad de combustible del Automovil es: %.2f&quot; , this.getQuantityOfFuel());</span>
     }
 
     @Override
     public String trip(float kilometers) {
-<span class="nc bnc" id="L26" title="All 2 branches missed.">        if(this.getUseByKm() * kilometers &gt; this.getQuantityOfFuel()){</span>
-<span class="nc" id="L27">            return &quot;Automovil.Automovil necesita reabastecimiento de combustible&quot;;</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        if(this.getUseByKm() * kilometers &gt; this.getQuantityOfFuel()){</span>
+<span class="fc" id="L27">            return &quot;Automovil necesita reabastecimiento de combustible&quot;;</span>
         }
 
-<span class="nc" id="L30">        this.setQuantityOfFuel(this.getQuantityOfFuel() - this.getUseByKm() * kilometers);</span>
-<span class="nc" id="L31">        return String.format(&quot;Automovil.Automovil viajó %.2f  km y aún tiene %.2f   de combustible&quot; ,  kilometers, this.getQuantityOfFuel());</span>
+<span class="fc" id="L30">        this.setQuantityOfFuel(this.getQuantityOfFuel() - this.getUseByKm() * kilometers);</span>
+<span class="fc" id="L31">        return String.format(&quot;Automovil viajo %.2f km y aun tiene %.2f de combustible&quot; ,  kilometers, this.getQuantityOfFuel());</span>
     }
 
 }
