@@ -12,8 +12,8 @@ public class Truck extends Vehicle {
 
     @Override
     public String supplying(double fuel) {
-<span class="pc bpc" id="L15" title="1 of 2 branches missed.">        if(this.getQuantityOfFuel() +  fuel &gt; this.getCapacityOfFuel()) {</span>
-<span class="nc" id="L16">            return &quot;Camíon  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad&quot;;</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">        if(this.getQuantityOfFuel() +  fuel &gt; this.getCapacityOfFuel()) {</span>
+<span class="fc" id="L16">            return &quot;Camíon  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad&quot;;</span>
         }
 <span class="fc" id="L18">        this.setQuantityOfFuel(this.getQuantityOfFuel() + (fuel * 0.95)) ;</span>
 
@@ -22,8 +22,8 @@ public class Truck extends Vehicle {
 
     @Override
     public String trip(float kilometers) {
-<span class="pc bpc" id="L25" title="1 of 2 branches missed.">        if(this.getUseByKm() * kilometers &gt; this.getQuantityOfFuel()){</span>
-<span class="nc" id="L26">            return &quot;Camión necesita reabastecimiento de combustible&quot;;</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        if(this.getUseByKm() * kilometers &gt; this.getQuantityOfFuel()){</span>
+<span class="fc" id="L26">            return &quot;Camión necesita reabastecimiento de combustible&quot;;</span>
         }
 
 <span class="fc" id="L29">        this.setQuantityOfFuel(this.getQuantityOfFuel() - this.getUseByKm() * kilometers);</span>
