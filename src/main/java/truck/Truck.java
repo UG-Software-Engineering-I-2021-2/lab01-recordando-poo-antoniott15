@@ -13,7 +13,7 @@ public class Truck extends Vehicle {
     @Override
     public String supplying(double fuel) {
         if(this.getQuantityOfFuel() +  fuel > this.getCapacityOfFuel()) {
-            return "Camíon no se puede reabastecer el tanque, sobrepasa la capacidad";
+            return "Camion no se puede reabastecer el tanque, sobrepasa la capacidad";
         }
         this.setQuantityOfFuel(this.getQuantityOfFuel() + (fuel * 0.95)) ;
 

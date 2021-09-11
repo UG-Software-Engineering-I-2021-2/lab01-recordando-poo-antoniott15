@@ -1,57 +1,379 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="91" passed="91" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-10T19:54:06 PET" name="vehicletest.VehicleTest" finished-at="2021-09-10T19:54:06 PET" duration-ms="100">
+  <suite started-at="2021-09-10T19:59:25 PET" name="Command line suite" finished-at="2021-09-10T19:59:26 PET" duration-ms="873">
     <groups>
     </groups>
-    <test started-at="2021-09-10T19:54:06 PET" name="Command line test" finished-at="2021-09-10T19:54:06 PET" duration-ms="100">
+    <test started-at="2021-09-10T19:59:25 PET" name="Command line test" finished-at="2021-09-10T19:59:26 PET" duration-ms="873">
       <class name="vehicletest.VehicleTest">
-        <test-method signature="TestCarWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileRefuelFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="19" status="PASS">
+        <test-method signature="TestCarWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestCarWhileRefuelFail" finished-at="2021-09-10T19:59:25 PET" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileRefuelFail -->
-        <test-method signature="TestCarWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileRefuelSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="2" status="PASS">
+        <test-method signature="TestCarWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestCarWhileRefuelSuccess" finished-at="2021-09-10T19:59:25 PET" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileRefuelSuccess -->
-        <test-method signature="TestCarWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileTripFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestCarWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestCarWhileTripFail" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileTripFail -->
-        <test-method signature="TestCarWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileTripSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestCarWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestCarWhileTripSuccess" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileTripSuccess -->
-        <test-method signature="TestTruckWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileRefuelSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestTruckWhileRefuelSuccess -->
-        <test-method signature="TestTruckWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileRefuelFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestTruckWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestTruckWhileRefuelFail" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTruckWhileRefuelFail -->
-        <test-method signature="TestTruckWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileTripFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestTruckWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestTruckWhileRefuelSuccess" finished-at="2021-09-10T19:59:25 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckWhileRefuelSuccess -->
+        <test-method signature="TestTruckWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestTruckWhileTripFail" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTruckWhileTripFail -->
-        <test-method signature="TestTruckWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileTripSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestTruckWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestTruckWhileTripSuccess" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTruckWhileTripSuccess -->
-        <test-method signature="TestVehicleSetCapacity()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestVehicleSetCapacity" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestVehicleSetCapacity -->
-        <test-method signature="TestVehicleSupplying()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestVehicleSupplying" finished-at="2021-09-10T19:54:06 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestVehicleSupplying -->
-        <test-method signature="TestVehicleTrip()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestVehicleTrip" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestVehicleTrip()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestVehicleTrip" finished-at="2021-09-10T19:59:25 PET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestVehicleTrip -->
+        <test-method signature="TestVehicleSetCapacity()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestVehicleSetCapacity" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVehicleSetCapacity -->
+        <test-method signature="TestVehicleSupplying()[pri:0, instance:vehicletest.VehicleTest@15d49048]" started-at="2021-09-10T19:59:25 PET" name="TestVehicleSupplying" finished-at="2021-09-10T19:59:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVehicleSupplying -->
       </class> <!-- vehicletest.VehicleTest -->
+      <class name="vehicletest.TestTruckParallel">
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+        <test-method signature="TestTruckRefuel()[pri:0, instance:vehicletest.TestTruckParallel@7098b907]" started-at="2021-09-10T19:59:25 PET" name="TestTruckRefuel" finished-at="2021-09-10T19:59:26 PET" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckRefuel -->
+      </class> <!-- vehicletest.TestTruckParallel -->
     </test> <!-- Command line test -->
-  </suite> <!-- vehicletest.VehicleTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
