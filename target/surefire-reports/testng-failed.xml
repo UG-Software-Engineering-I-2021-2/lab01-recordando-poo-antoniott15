@@ -6,7 +6,6 @@
       <class name="vehicletest.VehicleTest">
         <methods>
           <include name="TestTruckWhileRefuelFail"/>
-          <include name="TestTruckWhileTripFail"/>
         </methods>
       </class> <!-- vehicletest.VehicleTest -->
     </classes>

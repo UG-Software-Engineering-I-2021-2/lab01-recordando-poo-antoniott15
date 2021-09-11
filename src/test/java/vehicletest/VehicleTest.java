@@ -32,7 +32,7 @@ public class VehicleTest {
     public void TestTruckWhileRefuelFail() {
         Vehicle truck;
         truck = new Truck(20,100);
-        Assert.assertEquals(truck.supplying(200),"Camíon  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad");
+        Assert.assertEquals(truck.supplying(200),"Camíon no se puede reabastecer el tanque, sobrepasa la capacidad");
     }
 
 

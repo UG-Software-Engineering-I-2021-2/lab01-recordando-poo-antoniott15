@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-09T21:35:50 PET" name="vehicletest.VehicleTest" finished-at="2021-09-09T21:35:50 PET" duration-ms="135">
+  <suite started-at="2021-09-10T19:54:06 PET" name="vehicletest.VehicleTest" finished-at="2021-09-10T19:54:06 PET" duration-ms="100">
     <groups>
     </groups>
-    <test started-at="2021-09-09T21:35:50 PET" name="Command line test" finished-at="2021-09-09T21:35:50 PET" duration-ms="135">
+    <test started-at="2021-09-10T19:54:06 PET" name="Command line test" finished-at="2021-09-10T19:54:06 PET" duration-ms="100">
       <class name="vehicletest.VehicleTest">
-        <test-method signature="TestCarWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestCarWhileRefuelFail" finished-at="2021-09-09T21:35:50 PET" duration-ms="31" status="PASS">
+        <test-method signature="TestCarWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileRefuelFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileRefuelFail -->
-        <test-method signature="TestCarWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestCarWhileRefuelSuccess" finished-at="2021-09-09T21:35:50 PET" duration-ms="2" status="PASS">
+        <test-method signature="TestCarWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileRefuelSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileRefuelSuccess -->
-        <test-method signature="TestCarWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestCarWhileTripSuccess" finished-at="2021-09-09T21:35:50 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCarWhileTripSuccess -->
-        <test-method signature="TestCarWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestCarWhileTripFail" finished-at="2021-09-09T21:35:50 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestCarWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileTripFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCarWhileTripFail -->
-        <test-method signature="TestTruckWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestTruckWhileRefuelFail" finished-at="2021-09-09T21:35:50 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestCarWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestCarWhileTripSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestTruckWhileRefuelFail -->
-        <test-method signature="TestTruckWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestTruckWhileRefuelSuccess" finished-at="2021-09-09T21:35:50 PET" duration-ms="0" status="PASS">
+        </test-method> <!-- TestCarWhileTripSuccess -->
+        <test-method signature="TestTruckWhileRefuelSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileRefuelSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTruckWhileRefuelSuccess -->
-        <test-method signature="TestTruckWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestTruckWhileTripFail" finished-at="2021-09-09T21:35:50 PET" duration-ms="1" status="PASS">
+        <test-method signature="TestTruckWhileRefuelFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileRefuelFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTruckWhileRefuelFail -->
+        <test-method signature="TestTruckWhileTripFail()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileTripFail" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTruckWhileTripFail -->
-        <test-method signature="TestTruckWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestTruckWhileTripSuccess" finished-at="2021-09-09T21:35:50 PET" duration-ms="1" status="PASS">
+        <test-method signature="TestTruckWhileTripSuccess()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestTruckWhileTripSuccess" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTruckWhileTripSuccess -->
-        <test-method signature="TestVehicleSetCapacity()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestVehicleSetCapacity" finished-at="2021-09-09T21:35:50 PET" duration-ms="1" status="PASS">
+        <test-method signature="TestVehicleSetCapacity()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestVehicleSetCapacity" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestVehicleSetCapacity -->
-        <test-method signature="TestVehicleSupplying()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestVehicleSupplying" finished-at="2021-09-09T21:35:50 PET" duration-ms="3" status="PASS">
+        <test-method signature="TestVehicleSupplying()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestVehicleSupplying" finished-at="2021-09-10T19:54:06 PET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestVehicleSupplying -->
-        <test-method signature="TestVehicleTrip()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-09T21:35:50 PET" name="TestVehicleTrip" finished-at="2021-09-09T21:35:50 PET" duration-ms="0" status="PASS">
+        <test-method signature="TestVehicleTrip()[pri:0, instance:vehicletest.VehicleTest@311bf055]" started-at="2021-09-10T19:54:06 PET" name="TestVehicleTrip" finished-at="2021-09-10T19:54:06 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestVehicleTrip -->

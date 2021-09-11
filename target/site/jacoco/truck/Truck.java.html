@@ -13,7 +13,7 @@ public class Truck extends Vehicle {
     @Override
     public String supplying(double fuel) {
 <span class="fc bfc" id="L15" title="All 2 branches covered.">        if(this.getQuantityOfFuel() +  fuel &gt; this.getCapacityOfFuel()) {</span>
-<span class="fc" id="L16">            return &quot;Camíon  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad&quot;;</span>
+<span class="fc" id="L16">            return &quot;Camíon no se puede reabastecer el tanque, sobrepasa la capacidad&quot;;</span>
         }
 <span class="fc" id="L18">        this.setQuantityOfFuel(this.getQuantityOfFuel() + (fuel * 0.95)) ;</span>
 

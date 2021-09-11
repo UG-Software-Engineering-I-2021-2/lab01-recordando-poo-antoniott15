@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="vehicletest.VehicleTest" time="0.032" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="vehicletest.VehicleTest" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+0"/>
@@ -58,15 +58,15 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="vehicletest.VehicleTest" name="TestCarWhileRefuelFail" time="0.031"/>
-  <testcase classname="vehicletest.VehicleTest" name="TestCarWhileRefuelSuccess" time="0"/>
+  <testcase classname="vehicletest.VehicleTest" name="TestCarWhileRefuelFail" time="0.017"/>
+  <testcase classname="vehicletest.VehicleTest" name="TestCarWhileRefuelSuccess" time="0.001"/>
   <testcase classname="vehicletest.VehicleTest" name="TestCarWhileTripFail" time="0"/>
   <testcase classname="vehicletest.VehicleTest" name="TestCarWhileTripSuccess" time="0"/>
-  <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileRefuelFail" time="0.001"/>
-  <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileRefuelSuccess" time="0"/>
+  <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileRefuelFail" time="0"/>
+  <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileRefuelSuccess" time="0.001"/>
   <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileTripFail" time="0"/>
   <testcase classname="vehicletest.VehicleTest" name="TestTruckWhileTripSuccess" time="0"/>
   <testcase classname="vehicletest.VehicleTest" name="TestVehicleSetCapacity" time="0"/>
-  <testcase classname="vehicletest.VehicleTest" name="TestVehicleSupplying" time="0"/>
-  <testcase classname="vehicletest.VehicleTest" name="TestVehicleTrip" time="0"/>
+  <testcase classname="vehicletest.VehicleTest" name="TestVehicleSupplying" time="0.001"/>
+  <testcase classname="vehicletest.VehicleTest" name="TestVehicleTrip" time="0.001"/>
 </testsuite>
