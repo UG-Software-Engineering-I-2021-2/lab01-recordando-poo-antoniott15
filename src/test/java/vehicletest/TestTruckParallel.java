@@ -5,7 +5,8 @@ import org.testng.annotations.Test;
 import truck.Truck;
 import vehicle.Vehicle;
 
-public class TruckParallel {
+public class TestTruckParallel {
+
     @Test(threadPoolSize = 80, invocationCount = 80, timeOut = 1000)
     public void TestTruckRefuel() throws InterruptedException{
             Vehicle truck;
