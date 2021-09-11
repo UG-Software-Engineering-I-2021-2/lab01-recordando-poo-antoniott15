@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: vehicletest.VehicleTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.456 sec <<< FAILURE!
-TestTruckWhileRefuelFail(vehicletest.VehicleTest)  Time elapsed: 0.023 sec  <<< FAILURE!
-java.lang.AssertionError: expected [Cami?on  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad] but found [Cami??on  no  se  puede  reabastecer  el  tanque,  sobrepasa la capacidad]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at vehicletest.VehicleTest.TestTruckWhileRefuelFail(VehicleTest.java:35)
-
-TestTruckWhileTripFail(vehicletest.VehicleTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError: expected [Cami?n necesita reabastecimiento de combustible] but found [Cami??n necesita reabastecimiento de combustible]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at vehicletest.VehicleTest.TestTruckWhileTripFail(VehicleTest.java:28)
-
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.69 sec

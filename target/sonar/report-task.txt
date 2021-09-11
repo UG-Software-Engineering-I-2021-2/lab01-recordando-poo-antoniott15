@@ -3,5 +3,5 @@ projectKey=org.example:lab1-antoniotoche
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.23159
 dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Alab1-antoniotoche
-ceTaskId=AXvNhdDhY5zXJXTTAile
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvNhdDhY5zXJXTTAile
+ceTaskId=AXvNkBUmGMUfLiPhnBr2
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvNkBUmGMUfLiPhnBr2

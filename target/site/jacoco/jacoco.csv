@@ -2,4 +2,4 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 lab1-antoniotoche,car,Car,0,72,0,4,0,11,0,5,0,3
 lab1-antoniotoche,truck,Truck,0,74,0,4,0,11,0,5,0,3
 lab1-antoniotoche,main,Main,21,0,0,0,6,0,2,0,2,0
-lab1-antoniotoche,vehicle,Vehicle,24,35,0,0,4,14,3,6,3,6
+lab1-antoniotoche,vehicle,Vehicle,0,61,0,0,0,18,0,9,0,9

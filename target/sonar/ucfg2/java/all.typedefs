@@ -25,7 +25,7 @@ hashCode()java.lang.Object#hashCode()Iœ
 getUseByKm()vehicle.Vehicle#getUseByKm()D>
 supplying(D).vehicle.Vehicle#supplying(D)Ljava/lang/String;/
 setUseByKm(D)vehicle.Vehicle#setUseByKm(D)V=
-setCapacityOfFuel(D)%vehicle.Vehicle#setCapacityOfFuel(D)V;
+setCapacityOfFuel(D)%vehicle.Vehicle#setCapacityOfFuel(D)D;
 getQuantityOfFuel()$vehicle.Vehicle#getQuantityOfFuel()D³
 truck.Truckvehicle.Vehicle0
 trip(F)%truck.Truck#trip(F)Ljava/lang/String;%

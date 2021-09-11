@@ -84,4 +84,7 @@ public class VehicleTest {
         vehicle = new Vehicle(20,100);
         Assert.assertEquals(vehicle.setCapacityOfFuel(200),200);
     }
+
 }
+
+

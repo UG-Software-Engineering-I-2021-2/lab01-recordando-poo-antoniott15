@@ -22,25 +22,26 @@ public class Vehicle {
 <span class="fc" id="L22">        return capacityOfFuel;</span>
     }
 
-    public void setCapacityOfFuel(double capacityOfFuel) {
-<span class="nc" id="L26">        this.capacityOfFuel = capacityOfFuel;</span>
-<span class="nc" id="L27">    }</span>
+    public double setCapacityOfFuel(double capacityOfFuel) {
+<span class="fc" id="L26">        this.capacityOfFuel = capacityOfFuel;</span>
+<span class="fc" id="L27">        return this.capacityOfFuel;</span>
+    }
 
     public double getUseByKm() {
-<span class="fc" id="L30">        return useByKm;</span>
+<span class="fc" id="L31">        return useByKm;</span>
     }
 
     public void setUseByKm(double useByKm) {
-<span class="fc" id="L34">        this.useByKm = useByKm;</span>
-<span class="fc" id="L35">    }</span>
+<span class="fc" id="L35">        this.useByKm = useByKm;</span>
+<span class="fc" id="L36">    }</span>
 
     public String supplying(double fuel) {
-<span class="nc" id="L38">        return String.format(&quot;%.2f&quot;, fuel);</span>
+<span class="fc" id="L39">        return String.format(&quot;%.2f&quot;, fuel);</span>
     }
 
 
     public String trip(float kilometers) {
-<span class="nc" id="L43">        return String.format(&quot;%.2f&quot;, kilometers);</span>
+<span class="fc" id="L44">        return String.format(&quot;%.2f&quot;, kilometers);</span>
     }
 
 
